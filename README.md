@@ -73,6 +73,15 @@ Kuartil adalah nilai yang menandai batas interval dalam empat bagian sebaran yan
 75% adalah kuartil ketiga.
 Max adalah nilai maksimum.
 
+Kode mengecek data describe
+```
+dt.describe()
+```
+
+Hasil kode: ```dt.describe()```
+![3](https://github.com/user-attachments/assets/5327d257-b98f-41ab-a4c9-0b13d9c0bc92)
+
+
 Kolom yang mempunyai tipe data angka (float atau int) adalah Inches, Ram, Weight, Price_euros, ScreenW, ScreenH, CPU_freq, PrimaryStorage, SecondaryStorage.
 
 Kolom yang mempunyai tipe data teks (object) adalah Company, Product, TypeName, OS, Screen, Touchscreen, IPSpanel, RetinaDisplay, CPU_company, CPU_model, PrimaryStorageType, SecondaryStorageType, GPU_company, GPU_model.
@@ -154,6 +163,6 @@ Artinya fitur yang dengan korelasi mendekati 1 mempunyai pengaruh yang tinggi te
 
 - Bagaimana hasil model machine learning dalam memprediksi harga laptop?
 
-Hasil evaluasi model Random Forest dengan 11 kriteria/atribut/fitur di atas: MAE=179.48, dan MAPE 80.55%.
+Hasil evaluasi model Random Forest dengan 11 kriteria/atribut/fitur di atas: MAE=179.85, dan MAPE 80.57%.
 Semakin baik model adalah model dapat memprediksi yang persis seperti data aktual. Berarti jika selisih antara hasil prediksi dengan data aktual kecil maka model tersebut baik.
 Sehingga model yang dibuat ini mempunyai kepetatan rata-rata dalam memprediksi harga laptop sebesar kurang lebih 80%.
